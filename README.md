@@ -31,4 +31,11 @@ Follow these steps to run the provided Python script in Google Colab:
    !sudo apt-get install libffi-dev
    !yes | buildozer android clean
    !yes | buildozer init
-   !yes | buildozer -v android debugView Script Output:As the script runs, follow the output in the Colab notebook to ensure that each step completes successfully.That's it! You've successfully set up the development environment and built an Android APK with debugging enabled in Google Colab.
+   !yes | buildozer -v android debug
+
+
+View Script Output:
+As the script runs, follow the output in the Colab notebook to ensure that each step completes successfully.
+
+
+That's it! You've successfully set up the development environment and built an Android APK with debugging enabled in Google Colab.
